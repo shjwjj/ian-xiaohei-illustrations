@@ -1,0 +1,4 @@
+interface:
+  display_name: "方也 IP 插画"
+  short_description: "为方也公众号生成年轻、亲和、留白充足的 IP 正文插画。"
+  default_prompt: "使用方也 IP 插画 skill，为这篇公众号文章规划并生成配图，保持年轻、亲和、不说教，正文不角色化 IP。"

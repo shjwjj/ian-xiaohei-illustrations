@@ -130,6 +130,30 @@ cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张小黑怪诞正文配图。
 ```
 
+### Fork 扩展：方也 IP 插画
+
+这个 fork 额外包含 `fangye-ip-illustration/`，用于“方也”公众号的品牌 IP 插画生产。它继承了本项目“先找正文认知锚点，再画一个清晰动作”的方法，但视觉语言改为方也鹿/仓鼠 IP、现代日常场景、大量留白和更克制的公众号图中文字。
+
+安装：
+
+```bash
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R ./fangye-ip-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
+```
+
+使用：
+
+```text
+Use $fangye-ip-illustration 为这篇方也公众号文章规划并生成配图。IP 只在插图里呈现，正文不要角色化；图中文字要年轻、亲和、不说教。
+```
+
+适合生成：
+
+- 开篇状态图，例如下班回家后还在想工作
+- 睡眠、饮食、运动等文章里的动作演示图
+- 轻漫画式机制说明图
+- 中文文字必须准确的竖版步骤卡
+
 ---
 
 ## 怎么用
